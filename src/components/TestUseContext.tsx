@@ -1,3 +1,6 @@
+/**
+ * useContext 跨组件传值
+ */
 import React, { useContext } from 'react'
 
 const colorContext = React.createContext('grey')
