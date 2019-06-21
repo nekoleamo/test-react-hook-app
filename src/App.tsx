@@ -5,6 +5,7 @@ import TestUseReducer from './components/TestUseReducer'
 import TestUseCallback from './components/TestUseCallback'
 import TestUseMemo from './components/TestUseMemo'
 import TestUseRef from './components/TestUseRef'
+import TestUseImperativeHandle from './components/TestUseImperativeHandle'
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,8 @@ const App: React.FC = () => {
       <TestUseMemo />
       <hr/>
       <TestUseRef />
+      <hr/>
+      <TestUseImperativeHandle />
       <hr/>
     </div>
   );
